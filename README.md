@@ -50,3 +50,4 @@ Ejecutar la aplicacion con Android Studio, o desde comando (flutter run)
 
 #### Detalles:
  - Existe un directorio de plantillas para configurar como se veran las vistas de flutter en el dispositivo.
+ - Por el momento, no se genera ningun main.dart, este archivo se debe crear a mano y luego colocar botones que lleven a las pantallas de las vistas generadas. Tambien se puede usar una de las vistas generadas como main. Para eso renombre una vista cualquiera a main.dart, y dentro del archivo colocar el metodo "void main()".
