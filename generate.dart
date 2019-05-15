@@ -208,7 +208,7 @@ class Clase {
 
 	}
 
-	void get_script(){
+	String get_script(){
 		String contenido = "";
 		contenido += "CREATE TABLE IF NOT EXISTS " + _nombre + " (";
 
